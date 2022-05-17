@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollviewid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+        android:background="#00C2CB"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="677dp"
+            android:layout_margin="30dp"
+
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_monitor"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="15dp"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/monitorgamer" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_desc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="@string/monitor_gamer"
+                            android:textColor="#545454"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_preco"
+                            android:layout_width="135dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="@string/r_500_00"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="476dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/tv_DescProduto"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="20dp"
+                                android:text="@string/monitor_de_jogos_full_hd_1920_x_1080_de_27_polegadas_com_taxa_de_atualiza_o_ultrarr_pida_de_165_hz_projetado_para_jogadores_profissionais_e_jogabilidade_envolvente_a_tecnologia_asus_extreme_low_motion_blur_elmb_permite_um_tempo_de_resposta_de_1_ms_mprt_eliminando_fantasmas_para_visuais_n_tidos_de_jogos_o_shadow_boost_aprimora_os_detalhes_da_imagem_em_reas_escuras_iluminando_cenas_sem_expor_demais_as_reas_claras_processamento_compat_vel_com_g_sync_proporcionando_uma_experi_ncia_de_jogo_perfeita_e_sem_problemas_ao_habilitar_vrr_taxa_de_atualiza_o_vari_vel_por_padr_o_apresenta_um_suporte_ergonomicamente_projetado_para_oferecer_extensos_ajustes_de_rota_o_inclina_o_rota_o_e_altura"
+                                android:textColor="#545454"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>
